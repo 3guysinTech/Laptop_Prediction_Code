@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laptop Price Predictor</title>
+</head>
+<body>
+    <div class="op">
+
+    
+    <div>
+    <form id="priceForm">
+        <label for="RAM">RAM (GB)</label>
+        <select id="RAM">
+            <option value="">Select RAM</option>
+            <option value="4">4 GB</option>
+            <option value="8">8 GB</option>
+            <option value="16">16 GB</option>
+            <option value="32">32 GB</option>
+        </select>
+
+        <label for="SSD">SSD (GB)</label>
+        <select id="SSD">
+            <option value="">Select SSD</option>
+            <option value="64">64 GB</option>
+            <option value="128">128 GB</option>
+            <option value="256">256 GB</option>
+            <option value="512">512 GB</option>
+            <option value="1024">1 TB</option>
+        </select>
+
+        <label for="Processor">Processor</label>
+        <select id="Processor">
+            <option value="">Select Processor</option>
+            <option value="Ryzen 3">Ryzen 3</option>
+            <option value="i3">Intel i3</option>
+            <option value="Ryzen 5">Ryzen 5</option>
+            <option value="i5">Intel i5</option>
+            <option value="i7">Intel i7</option>
+        </select>
+
+        <label for="Brand">Brand</label>
+        <select id="Brand">
+            <option value="">Select Brand</option>
+            <option value="HP">HP</option>
+            <option value="ASUS">ASUS</option>
+            <option value="ACER">ACER</option>
+            <option value="LENOVO">LENOVO</option>
+            <option value="DELL">DELL</option>
+        </select>
+
+        <button id="btn">Predict Price</button>
+    </form>
+    
+
+    </div>
+
+    <div class="div1">
+        <p id="price_p"></p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
